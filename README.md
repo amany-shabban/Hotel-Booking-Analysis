@@ -1,5 +1,4 @@
 # Hotel Booking Analysis
-This repository contains a Power BI-based analysis and dashboarding project on a hotel booking dataset from Kaggle. The goal of the project is to explore booking behaviors, cancellation trends, pricing dynamics, and temporal patterns to inform business decisions.
 ## Dataset
 - **Source**: Kaggle hotel booking dataset :contentReference https://www.kaggle.com/datasets/mojtaba142/hotel-booking   
 - **Description**: The dataset includes reservation data for city and resort hotels, with features like booking date, arrival date, lead time, cancellation status, average daily rate (ADR), number of special requests, and more.

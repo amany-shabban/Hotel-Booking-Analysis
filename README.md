@@ -32,13 +32,7 @@ Transformed denormalized dataset into star schema architecture:
 - Implemented one-to-many relationships with proper cardinality
 - Active relationship established on `Arrival_Date` to `DimDate`
 - Inactive relationship on `reservation_status_date` for alternative temporal analysis
-### 4. Measure Development
-Created DAX measures aligned with hospitality industry KPIs:
-- Booking volume metrics and cancellation analytics
-- Revenue calculations (ADR × nights stayed)
-- Occupancy and utilization rates
-- Customer retention indicators (repeat guest percentage)
-- Average length of stay calculations
+
 ### 5. Dashboard Development
 Built multi-page analytical dashboards covering:
 - Executive KPI overview
@@ -82,17 +76,6 @@ All KPIs are interactive and can be filtered by:
 **Insights:**
 - Transient customers account for 79% of all bookings (94,496), representing core business segment
 - Repeat guests show significantly lower cancellation rate (14.5%) compared to first-time guests (37.8%), demonstrating 2.6x better retention
-- Bed & Breakfast meal plan dominates with 77% of bookings (92,310) generating $31.1M revenue
-- Portuguese domestic market represents 41% of total bookings (48,590), followed by UK (10%) and France (9%)
-- Non-refundable deposits paradoxically correlate with 99.4% cancellation rate (14,587 bookings), suggesting pricing or policy issues
-- Peak season concentration in July-August generates 62% higher revenue than winter months, creating operational capacity challenges
-**Recommendations:**
-- Launch loyalty rewards program specifically targeting Transient segment to convert first-time guests into repeaters and reduce 37.8% cancellation rate
-- Investigate non-refundable deposit policy effectiveness as current 99.4% cancellation rate indicates potential fraud or system misclassification
-- Create seasonal promotional campaigns for shoulder periods (January-March, September-November) to smooth demand curves and improve annual occupancy rates
-- Develop domestic market retention strategies targeting Portuguese guests who comprise largest booking segment
-- Expand meal package options beyond BB to capture upsell opportunities, particularly Half-Board packages for resort properties
-- Implement predictive cancellation model prioritizing high-risk factors: no deposit, TA/TO channel, and long lead times for proactive intervention
 
 
 <table>

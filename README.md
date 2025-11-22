@@ -77,15 +77,6 @@ All KPIs are interactive and can be filtered by:
 **Insights:**
 - City Hotels generate 59% of total revenue ($25.3M vs $17.4M) with higher booking volume (79,330 vs 40,060 bookings)
 - Online Travel Agencies dominate distribution channels with $23.9M revenue (56% of total) but exhibit 36.7% cancellation rate
-- Groups segment shows critical 61% cancellation rate, indicating significant revenue risk
-- Direct bookings demonstrate strongest commitment with only 15.3% cancellation rate
-- Medium-stay guests (3-5 nights) drive 47% of total revenue ($20.2M) despite representing only 44% of bookings
-- Travel Agent/Tour Operator channel accounts for 82% of all bookings (97,870) but suffers 41% cancellation rate
-**Recommendations:**
-- Implement differential cancellation policies for Groups segment with non-refundable deposits to reduce revenue volatility
-- Develop direct booking incentive program to shift channel mix away from high-commission OTAs while reducing cancellations
-- Deploy dynamic pricing algorithms for Resort Hotels to optimize revenue per available room given lower booking density
-- Create targeted packages encouraging 3-5 night stays to maximize revenue per booking efficiency
 
 ### Dashboard 2: Customer Behavior & Operational Patterns
 **Insights:**

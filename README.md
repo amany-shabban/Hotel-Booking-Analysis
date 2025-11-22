@@ -2,9 +2,7 @@
 ## Dataset
 - **Source**: Kaggle hotel booking dataset :contentReference https://www.kaggle.com/datasets/mojtaba142/hotel-booking   
 - **Description**: The dataset includes reservation data for city and resort hotels, with features like booking date, arrival date, lead time, cancellation status, average daily rate (ADR), number of special requests, and more.
-The dataset comprises 119,390 booking records from:
-- **City Hotel (H2)**: 79,330 bookings
-- **Resort Hotel (H1)**: 40,060 bookings
+The dataset comprises 119,390 booking records.
 
 ## Data Processing Pipeline
 ### 1. Data Acquisition & Profiling
@@ -43,6 +41,7 @@ The dashboards feature the following key performance indicators:
 - **Total Revenue**: Aggregate revenue generated from all bookings ($42.7M)
 - **Completed Bookings**: Number of bookings that were not canceled (75,180)
 - **Total Cancelation**: Count of canceled bookings (44,210)
+- **Total Gustes**: Total number of guests (adults + children + babies) across all bookings
 
 ### Performance Indicators
 - **Cancelation Rate**: Percentage of bookings that were canceled (37.04%)
@@ -50,23 +49,6 @@ The dashboards feature the following key performance indicators:
 - **Average ADR**: Average Daily Rate across all bookings ($101.79)
 - **Avg LOS**: Average Length of Stay in nights
 - **Repeat Guest %**: Percentage of bookings from returning customers
-
-### Operational Metrics
-- **Total Gustes**: Total number of guests (adults + children + babies) across all bookings
-
-All KPIs are interactive and can be filtered by:
-- Date range, Hotel type,  Market segment, distribution channel, Customer type , country.
-
-## Key Insights 
-### Dashboard 1: Revenue & Market Performance
-**Insights:**
-- City Hotels generate 59% of total revenue ($25.3M vs $17.4M) with higher booking volume (79,330 vs 40,060 bookings)
-- Online Travel Agencies dominate distribution channels with $23.9M revenue (56% of total) but exhibit 36.7% cancellation rate
-
-### Dashboard 2: Customer Behavior & Operational Patterns
-**Insights:**
-- Transient customers account for 79% of all bookings (94,496), representing core business segment
-- Repeat guests show significantly lower cancellation rate (14.5%) compared to first-time guests (37.8%), demonstrating 2.6x better retention
 
 
 <table>

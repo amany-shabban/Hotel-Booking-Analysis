@@ -1,3 +1,8 @@
+## Key Insights 
+### Dashboard 1: Revenue & Market Performance
+**Insights:**
+- City Hotels generate 59% of total revenue ($25.3M vs $17.4M) with higher booking volume (79,330 vs 40,060 bookings)
+- Online Travel Agencies dominate distribution channels with $23.9M revenue (56% of total) but exhibit 36.7% cancellation rate
 - Groups segment shows critical 61% cancellation rate, indicating significant revenue risk
 - Direct bookings demonstrate strongest commitment with only 15.3% cancellation rate
 - Medium-stay guests (3-5 nights) drive 47% of total revenue ($20.2M) despite representing only 44% of bookings
@@ -8,7 +13,12 @@
 - Deploy dynamic pricing algorithms for Resort Hotels to optimize revenue per available room given lower booking density
 - Create targeted packages encouraging 3-5 night stays to maximize revenue per booking efficiency
 
-*Dashboard:2*
+
+
+### Dashboard 2: Customer Behavior & Operational Patterns
+**Insights:**
+- Transient customers account for 79% of all bookings (94,496), representing core business segment
+- Repeat guests show significantly lower cancellation rate (14.5%) compared to first-time guests (37.8%), demonstrating 2.6x better retention
 - Bed & Breakfast meal plan dominates with 77% of bookings (92,310) generating $31.1M revenue
 - Portuguese domestic market represents 41% of total bookings (48,590), followed by UK (10%) and France (9%)
 - Non-refundable deposits paradoxically correlate with 99.4% cancellation rate (14,587 bookings), suggesting pricing or policy issues

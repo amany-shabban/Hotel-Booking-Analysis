@@ -10,7 +10,6 @@ The dataset comprises 119,390 booking records from:
 ### 1. Data Acquisition & Profiling
 - Downloaded flat CSV file from Kaggle containing 31 original variables
 - Conducted initial data profiling to understand structure, data types, and business context
-- Reviewed variable descriptions from original research paper
 
 ### 2. Data Quality Assessment & Cleaning
 - **Duplicate Detection**: Verified no duplicate booking records exist
@@ -28,10 +27,6 @@ Transformed denormalized dataset into star schema architecture:
 - `dimCountry`: Geographic dimension based on ISO 3155-3:2013 country codes
 - `dimHotel_type`: Hotel classification (City Hotel vs Resort Hotel)
 - `dimDeposit`: Deposit type categories (No Deposit, Non-Refund, Refundable)
-**Relationships**
-- Implemented one-to-many relationships with proper cardinality
-- Active relationship established on `Arrival_Date` to `DimDate`
-- Inactive relationship on `reservation_status_date` for alternative temporal analysis
 
 ### 5. Dashboard Development
 Built multi-page analytical dashboards covering:
@@ -60,13 +55,9 @@ The dashboards feature the following key performance indicators:
 - **Total Gustes**: Total number of guests (adults + children + babies) across all bookings
 
 All KPIs are interactive and can be filtered by:
-- Date range (Year, Month, Day)
-- Hotel type (City Hotel vs Resort Hotel)
-- Market segment and distribution channel
-- Customer type and country
-- Booking status and deposit type
+- Date range, Hotel type,  Market segment, distribution channel, Customer type , country.
 
-## Key Insights & Recommendations
+## Key Insights 
 ### Dashboard 1: Revenue & Market Performance
 **Insights:**
 - City Hotels generate 59% of total revenue ($25.3M vs $17.4M) with higher booking volume (79,330 vs 40,060 bookings)
